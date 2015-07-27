@@ -126,7 +126,6 @@ def test_test_client_context_binding():
         cx = c.captured_context
         assert cx.globals.value == 23
 
-
 def test_reuse_client():
     app = Flak(__name__)
     c = app.test_client()
