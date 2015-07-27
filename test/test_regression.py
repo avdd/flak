@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 import flak
-import threading
 from werkzeug.exceptions import NotFound
-
-_gc_lock = threading.Lock()
 
 
 def test_aborting():
