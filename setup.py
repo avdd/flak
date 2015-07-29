@@ -21,6 +21,7 @@ setup(
         'Werkzeug>=0.7',
         'itsdangerous>=0.21',
         'click>=2.0',
+        'simplejson>=3.8',
     ],
     entry_points='''
         [console_scripts]
