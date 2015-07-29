@@ -3,10 +3,10 @@ import pytest
 import os
 import datetime
 import flak
-import json
 from logging import StreamHandler
 from werkzeug.http import parse_cache_control_header, parse_options_header
 from werkzeug.http import http_date
+from itsdangerous import json
 from flak._compat import StringIO, text_type
 from flak import Flak
 
