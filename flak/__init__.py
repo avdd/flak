@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__version__ = '0.0'
+__version__ = '0.9.1'
 
 from werkzeug.exceptions import abort
 from werkzeug.utils import redirect
